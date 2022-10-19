@@ -10,7 +10,7 @@ Os bancos de dados são conjuntos de arquivos relacionados entre si, com registr
 
 SQL é a sigla para “Structured Query Language”, que significa, traduzindo para o português, “Linguagem de Consulta Estruturada”. Trata-se de uma linguagem de consulta a banco de dados relacionais.
 O SQL é utilizado para executar vários comandos como criar, alterar, gerenciar, consultar, etc no seu banco de dados.
-Os bancos SQL seguem uma modelagem relacional, pois estes se baseiam no fato de que todos seus dados sejam guardados em tabelas.
+Os bancos SQL seguem uma modelagem relacional, pois estes se baseiam no fato de que todos seus dados sejam guardados em tabelas. É uma linguagem declarativa dividida em conjuntos de comandos Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), Transactional Control Language (TCL) e Data Query Language (DQL).
 
 # NosSql
 
@@ -32,3 +32,12 @@ O Neo4j é um banco que utiliza grafos.
 ### Chave-valor
 Essa família de bancos NoSQL é a que aguenta a maior carga de dados, pois o conceito dela é que um determinado valor seja acessado através de uma chave identificadora única.
 Um exemplo é o banco de dados Riak. 
+
+# Diferenças Sql x NoSql e em que contexto utilizar cada
+A utilização de cada um deles depende da demanda.
+
+Caso saiba listar exatamente o que deve ser armazenado em seu banco de dados e estes dados exigem grande consistência, preza por um banco com suporte da comunidade para tirar dúvidas e prefere aprender uma linguagem padronizada e bastante regularizada, SQL é a melhor escolha. Ainda vale ressaltar que, essencialmente, SQL não é uma linguagem de programação, sendo assim, pode ser a melhor escolha para iniciantes.
+
+Entretanto, se seus dados são dinâmicos e mudam constantemente, você não tem uma estrutura bem definida do que armazenar ali, exige uma maior performance ou prevê que irá escalar rapidamente, talvez um banco NoSQL seja o melhor pra você.
+
+
